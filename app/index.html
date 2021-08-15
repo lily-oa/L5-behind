@@ -1,0 +1,207 @@
+---
+title: Assignment
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<header class="d-flex justify-content-center mb-8">
+  <h2 class="h4 fw-bolder me-5">Assignment</h2>
+  <!--下拉選單-->
+  <div class="dropdown me-auto">
+    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+      aria-expanded="false">
+      All Courses
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <li><a class="dropdown-item" href="#">CSS</a></li>
+      <li><a class="dropdown-item" href="#">HTML</a></li>
+      <li><a class="dropdown-item" href="#">JAVASCRIPT</a></li>
+    </ul>
+  </div>
+  <div class="icon d-flex">
+    <a href="#"><span class="material-icons text-dark icon_hover">search</span></a>
+    <a href="#"><span class="material-icons ms-4 text-dark icon_hover">notifications_active</span></a>
+</header>
+<!--下拉選單-->
+<div class="d-flex justify-content-between align-items-end">
+  <div class="dropdown">
+    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+      aria-expanded="false">
+      All (4)
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+    </ul>
+  </div>
+  <p class="fs-7 text-fourColor">2 comments</p>
+</div>
+<div class="row">
+  <!-- 第一塊 -->
+  <div class="col-md-5">
+    <ul class="list-group">
+      <!--1-->
+      <li class="border border-1 border-bottom-0 bg-secondary pt-9 px-9">
+        <div class="d-flex justify-content-between">
+          <p class="fs-7 text-fourColor">Chapter Assignment 2</p>
+          <span class="fs-7">4 hrs ago</span>
+        </div>
+        <div class="d-flex justify-content-between">
+          <p class="fw-bolder">Please check this file…</p>
+          <span class="fs-7 text-fiveColor">Emily Wang</span>
+        </div>
+      </li>
+      <!--2-->
+      <li class="wantHover border border-1 border-bottom-0 pt-9 px-9">
+        <div class="d-flex justify-content-between">
+          <p class="fs-7 text-fourColor">Chapter Assignment 1</p>
+          <span class="fs-7">12 hrs ago</span>
+        </div>
+        <div class="d-flex justify-content-between">
+          <p class="fw-bolder">My Homework</p>
+          <span class="fs-7 text-fiveColor">David Xu</span>
+        </div>
+      </li>
+      <!--3-->
+      <li class="wantHover border border-1 border-bottom-0 pt-9 px-9">
+        <div class="d-flex justify-content-between">
+          <p class="fs-7 text-fourColor">Final Assignment</p>
+          <span class="fs-7">18 hrs ago</span>
+        </div>
+        <div class="d-flex justify-content-between">
+          <p class="fw-bolder">Have a problem with this…</p>
+          <span class="fs-7 text-fiveColor">Tony Wei</span>
+        </div>
+      </li>
+      <!--4-->
+      <li class="wantHover border border-1 pt-9 px-9">
+        <div class="d-flex justify-content-between">
+          <p class="fs-7 text-fourColor">Final Assignment</p>
+          <span class="fs-7">19 hrs ago</span>
+        </div>
+        <div class="d-flex justify-content-between">
+          <p class="fw-bolder">Did I do it right?</p>
+          <span class="fs-7 text-fiveColor">Christina Lin</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <!-- 第二塊 -->
+  <div class="col-md-7">
+    <div class="d-flex justify-content-between align-items-center bg-secondary py-9 ps-3 border border-1">
+      <div class="card_word">
+        <p class="fs-7 mb-1">Chapter Assignment 2 / HTML&CSS</p>
+        <p class="mb-0 fw-bolder">Please check this file for me, thanks!</p>
+      </div>
+      <!--下拉選單-->
+      <div class="dropdown">
+        <button class="btn" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+          <a href="#"><span class="material-icons text-dark icon_hover">more_vert</span></a>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+          <li><button class="dropdown-item" type="button">Action</button></li>
+          <li><button class="dropdown-item" type="button">Another action</button></li>
+          <li><button class="dropdown-item" type="button">Something else here</button></li>
+        </ul>
+      </div>
+    </div>
+    <ul class="pt-3 pb-0 px-3 border border-1">
+      <li class="card_list d-flex align-items-start">
+        <img class="card_pic rounded-circle me-2"
+          src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/emilywang.jpeg?raw=true" alt="">
+        <div>
+          <p class="mb-0 fw-bolder">Emily Wang</p>
+          <span class="fw-normal fs-7 text-fourColor">10:38 AM (4 hours ago)</span>
+          <p class="mt-3 fs-8">Hi Teacher, the attached file is my homework of chapter 2. And here comes a
+            <br>question: Why in the following code the height of the <span class="text-primary">div</span>is
+            bigger than the<br> height of the <span class="text-primary">img</span> ? There is a gap below the
+            image, but it doesn’t seems to be a<br> padding/margin.<br> What is the gap or extra space below
+            image?</p>
+          <a href="#" class="d-inline-block py-2 px-3 border border-1 text-dark bg-secondary" download="HW-2-David.zip">
+            <span class="material-icons align-middle">attach_file</span>
+            <span>HW-2-David.zip</span>
+          </a>
+          <hr class="my-3 border border-fiveColor">
+        </div>
+      </li>
+      <li class="card_list d-flex">
+        <img class="card_pic rounded-circle me-2"
+          src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/andychen.jpeg?raw=true" alt="">
+        <div class="card_content w-100">
+          <ul class="card_title d-flex justify-content-between mb-3">
+            <li class="card_word">
+              <p class="mb-0 fw-bolder">Andy Chen (You)</p>
+              <span class="fw-normal fs-7 text-fourColor">13:24 AM (1 hours ago)</span>
+            </li>
+            <li class="card_icon d-flex">
+              <a href="#" class="d-block text-dark icon_hover">
+                <span class="material-icons-outlined">grade</span>
+              </a>
+              <a href="#" class="d-block text-dark icon_hover">
+                <span class="material-icons ms-3">edit</span>
+              </a>
+            </li>
+          </ul>
+          <p class="fs-8">Hi David, by default, an image is rendered inline, like a letter so it sits on the<br>
+            same line that a, b, c and d sit on. There is space below that line for the<br> descenders you find
+            on letters like g, j, p and q.</p>
+          <p>You can:</p>
+          <ul>
+            <li>
+              <p>• adjust the <span class="text-primary">vertical-align</span> of the image to position it
+                elsewhere (e.g.<br> the <span class="text-primary">middle</span> ) or</p>
+            </li>
+            <li>
+              <p>• change the <span class="text-primary">display</span> so it isn’t inline.</p>
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+    <!-- 第二塊下方 footer-->
+    <footer class="d-flex justify-content-between align-items-center">
+      <ul class="d-flex">
+        <li class="footer_btn me-3">
+          <a href="#" type="button" class="text-dark">
+            <span class="material-icons align-bottom">navigate_before</span>
+          </a>
+        </li>
+        <li class="footer_btn">
+          <a href="#" type="button" class="text-dark">
+            <span class="material-icons align-bottom">navigate_next</span>
+          </a>
+        </li>
+      </ul>
+      <ul class="button_group d-flex">
+        <li class="Mark_btn">
+          <button type="button" class="btn btn-outline-success">Mark as read</button>
+        </li>
+        <!-- 下拉選單-->
+        <li class="Reply_btn ms-3">
+          <div class="transactionType">
+            <button type="button" class="spacil_btn btn btn-success">
+              Reply
+            </button>
+
+          </div>
+          <div class="fadeInUpBig">
+            <div class="box" id="editor">
+              <p>This is some sample content.</p>
+
+            </div>
+            <a href="#" type="btn" class="site_item1 btn btn-primary d-block ms-3">Reply</a>
+            <a type="button" class="site_item2 btn btn-outline-success">Mark as read</a>
+          </div>
+          <script>
+            ClassicEditor
+              .create(document.querySelector('#editor'))
+              .catch(error => {
+                console.error(error);
+              });
+          </script>
+        </li>
+    </footer>
+  </div>
+</div>

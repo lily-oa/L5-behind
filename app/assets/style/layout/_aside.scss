@@ -1,0 +1,31 @@
+
+.footer_pic{
+  width: 40px;
+  height: 40px;
+}
+
+.logo_pic:hover{
+  background: $thirdColor;
+}
+
+nav { 
+    .nav_hover{
+      color: #000;
+    }
+    .nav_hover:hover{
+    color: $thirdColor;
+  }
+}
+
+// 修改 sidebar 和 main 重疊部份
+.main {
+  @media(max-width:767px){
+    position: initial !important;
+  }
+}
+
+.navbar {
+  @media(max-width:767px){
+    position: initial !important;
+  }
+}

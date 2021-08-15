@@ -1,0 +1,10 @@
+@import './helpers/bootstrap.scss';
+/*-- setting --*/
+@import "setting/myVariable";
+@import "setting/util";
+@import "setting/base.scss";
+/*-- layout --*/
+@import "layout/aside";
+/*-- pages --*/
+@import "pages/index";
+@import "pages/Admin";

@@ -1,0 +1,24 @@
+/*   通用類別   */
+//行高
+.lh_m{
+  line-height: 2;
+}
+
+//hover
+.wantHover {
+  &:hover {
+    background-color: #EDF4EE;
+  }
+}
+
+.icon_hover {
+  &:hover {
+    color: $primary !important;
+  }
+}
+
+.icon_hover_2 {
+  &:hover {
+    color: $warning!important;
+  }
+}

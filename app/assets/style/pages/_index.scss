@@ -1,0 +1,62 @@
+.card_pic{
+  width: 40px;
+  height: 40px;
+}
+
+ol, .card_title{
+  padding-left: 0;
+}
+
+//全部的icon:hover顏色都相同(如果要改再取名)
+.card_list .card_icon > a,span{
+  &:hover {
+    color: $thirdColor;
+  }
+  
+}
+
+footer .footer_btn{
+  &:hover{
+    cursor: pointer;
+    a{
+      display: block;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+//上拉選單 打開ckeditor
+.fadeInUpBig{
+  position: fixed; 
+  width:40.5%; 
+  height: 50%; 
+  bottom: 40px;
+  right: 24px;
+  display: none; 
+  z-index: 120;
+  background: $secondary;
+}
+
+.box{
+  position: absolute;
+  display:none; 
+  bottom: 0;
+  right:  0;
+  display:block;  
+  width:100%; 
+  height: 100%;
+}
+
+.site_item1{
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+}
+
+.site_item2{
+  position: absolute;
+  bottom: 0;
+  right: 20%;
+}
